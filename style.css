@@ -1,0 +1,808 @@
+@import 'https://fonts.googleapis.com/css?family=Montserrat:300, 400, 700&display=swap';
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+html {
+	font-size: 11px;
+	font-family: 'Montserrat', sans-serif;
+	scroll-behavior: smooth;
+}
+a {
+	text-decoration: none;
+}
+.container {
+	min-height: 100vh;
+	width: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+img {
+	height: 100%;
+	width: 100%;
+	object-fit: cover;
+}
+p {
+	color: black;
+	font-size: 1.2rem;
+	margin-top: 5px;
+	line-height: 2.5rem;
+	font-weight: 300;
+	letter-spacing: 0.05rem;
+}
+.section-title {
+	font-size: 1.2rem;
+	font-weight: 300;
+	color: rgb(0, 0, 0);
+	margin-bottom: 10px;
+	text-transform: uppercase;
+	letter-spacing: 0.2rem;
+	text-align: center;
+}
+.section-title span {
+	color: rgb(23, 220, 20);
+}
+
+
+/* Media Query MOBILE */
+@media only screen and (min-width: 350px) {
+	.section-title {
+		font-size: 3rem;
+		font-weight: 300;
+		color: rgb(0, 0, 0);
+		margin-bottom: 10px;
+		text-transform: uppercase;
+		letter-spacing: 0.2rem;
+		text-align: center;
+	}
+	
+	
+}
+/*  */
+
+
+
+
+.cta {
+	display: inline-block;
+	padding: 10px 30px;
+	color: orange;
+	background-color: transparent;
+	border: 2px solid orange;
+	font-size: 2rem;
+	text-transform: uppercase;
+	text-decoration: none;
+	letter-spacing: 0.1rem;
+	margin-top: 30px;
+	transition: 0.3s ease;
+	transition-property: background-color, color;
+}
+.cta:hover {
+	color: white;
+	background-color: orange;
+}
+.brand h1 {
+	font-size: 2rem;
+	text-transform: uppercase;
+	color: white;
+}
+.brand h1 span {
+	color: orange;
+}
+
+
+
+
+
+/* Header - MENU NAVBAR*/
+
+/* color barra navegación */
+.bg-mine {
+	background-color: #09ac2f;
+	border: none;
+}
+
+/* boton hamburguesa */
+.navbar-toggler {
+	border: none;
+}
+
+.navbar-expand-lg .navbar-collapse {
+	justify-content: space-between;
+}
+
+/* estilo enlaces*/
+.navbar-nav a {
+	font-size: 2em;
+	color: white;
+	font-weight: 400;
+	margin-left: 30px;
+	margin-right: 10px;
+}
+
+
+
+
+
+/* SLIDER ESTILO */
+
+/* caption */
+.carousel-caption {
+	background-color: rgba(238, 141, 0, 0.681);
+	color: white;
+	padding-bottom: 4rem;
+}
+
+
+/* Movimiento Section */
+#movimiento .movimiento {
+	flex-direction: column;
+	text-align: center;
+	max-width: 1500px;
+	margin: 0 auto;
+	padding: 100px 0;
+}
+#movimiento .movimiento-top {
+	max-width: 500px;
+	margin: 0 auto;
+}
+#movimiento .movimiento-bottom {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-wrap: wrap;
+	margin-top: 50px;
+}
+#movimiento .movimiento-item {
+	flex-basis: 80%;
+	display: flex;
+	align-items: flex-start;
+	justify-content: center;
+	flex-direction: column;
+	padding: 30px;
+	border-radius: 10px;
+	background-image: url(./img/pastillas-12.jpg);
+	background-size: cover;
+	margin: 10px 5%;
+	position: relative;
+	z-index: 1;
+	overflow: hidden;
+}
+#movimiento .movimiento-item::after {
+	content: '';
+	position: absolute;
+	left: 0;
+	top: 0;
+	height: 100%;
+	width: 100%;
+	background-image: linear-gradient(60deg, #29323c 0%, #485563 100%);
+	opacity: 0.5;
+	z-index: -1;
+}
+#movimiento .movimiento-bottom .icon {
+	height: 80px;
+	width: 80px;
+	margin-bottom: 20px;
+}
+
+
+#movimiento .movimiento-item h2 {
+	font-size: 2rem;
+	color: white;
+	margin-bottom: 10px;
+	text-transform: uppercase;
+}
+#movimiento .movimiento-item p {
+	color: white;
+	text-align: left;
+}
+
+#movimiento .movimiento-item .btn {
+	width: 250px;
+	text-align: center;
+}
+
+/* PARALLAX*/
+
+
+.margin-top-10 {padding-top:10px;}
+.margin-bot-10 {padding-bottom:10px;}
+
+#parallax-world-of-ugg h1 {font-family:'Oswald', sans-serif; font-size:24px; font-weight:400; text-transform: uppercase; color:black; padding:0; margin:0;}
+#parallax-world-of-ugg h2 {font-family:'Oswald', sans-serif; font-size:70px; letter-spacing:10px; text-align:center; color:white; font-weight:400; text-transform:uppercase; z-index:10; opacity:.9;}
+#parallax-world-of-ugg h3 {font-family:'Oswald', sans-serif; font-size:14px; line-height:0; font-weight:400; letter-spacing:8px; text-transform: uppercase; color:black;}
+#parallax-world-of-ugg p {font-family:'Source Sans Pro', sans-serif; font-weight:400; font-size:14px; line-height:24px;}
+.first-character {font-weight:400; float: left; font-size: 84px; line-height: 64px; padding-top: 4px; padding-right: 8px; padding-left: 3px; font-family: 'Source Sans Pro', sans-serif;}
+
+.sc {color: #3b8595;}
+.ny {color: #3d3c3a;}
+.atw {color: #c48660;}
+
+
+#parallax-world-of-ugg .title {background: white; padding: 60px; margin:0 auto; text-align:center;}
+#parallax-world-of-ugg .title h1 {font-size:35px; letter-spacing:8px;}
+
+#parallax-world-of-ugg .block {background: white; padding: 60px; width:820px; margin:0 auto; text-align:justify;}
+#parallax-world-of-ugg .block-gray {background: #f2f2f2;padding: 60px;}
+#parallax-world-of-ugg .section-overlay-mask {position: absolute; top: 0; left: 0; width: 100%; height: 100%; background-color: black; opacity: 0.70;}
+
+
+#parallax-world-of-ugg .parallax-one {padding-top: 200px; padding-bottom: 200px; overflow: hidden; position: relative; width: 100%; background-image: url(https://images.unsplash.com/photo-1580086319619-3ed498161c77?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1469&q=80); background-attachment: fixed; background-size: cover; -moz-background-size: cover; -webkit-background-size: cover; background-repeat: no-repeat; background-position: top center;}
+
+
+#parallax-world-of-ugg .line-break {border-bottom:1px solid black; width: 150px; margin:0 auto;}
+
+/* Media Queries */
+/**************************/
+@media screen and (max-width: 959px) and (min-width: 768px) {
+  #parallax-world-of-ugg .block {padding: 40px; width:620px;}
+}
+@media screen and (max-width: 767px) {
+  #parallax-world-of-ugg .block {padding: 30px; width:420px;}
+  #parallax-world-of-ugg h2 {font-size:30px;}
+  #parallax-world-of-ugg .block {padding: 30px;}
+  #parallax-world-of-ugg .parallax-one, #parallax-world-of-ugg .parallax-two, #parallax-world-of-ugg .parallax-three {padding-top:100px; padding-bottom:100px;}
+}
+@media screen and (max-width: 479px) {
+  #parallax-world-of-ugg .block {padding: 30px 15px; width:290px;}
+}
+
+
+
+
+/* Proyecto section */
+#proyecto .proyecto {
+	flex-direction: column;
+	max-width: 1200px;
+	margin: 0 auto;
+	padding: 100px 0;
+	
+}
+#proyecto .proyecto-header h1 {
+	margin-bottom: 50px;
+}
+#proyecto .all-proyecto {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+}
+#proyecto .proyecto-item {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	width: 80%;
+	margin: 20px auto;
+	overflow: hidden;
+	border-radius: 10px;
+}
+#proyecto .proyecto-info {
+	padding: 30px;
+	flex-basis: 50%;
+	height: 100%;
+	display: flex;
+	align-items: flex-start;
+	justify-content: center;
+	flex-direction: column;
+	background-image: linear-gradient(60deg, #2e816c 0%, #25a480 100%);
+	color: white;
+}
+#proyecto .proyecto-info h1 {
+	font-size: 3rem;
+	font-weight: 500;
+	margin-top: 20px;
+	margin-right: 20px;
+	margin-bottom: 20px;
+}
+#proyecto .proyecto-info h2 {
+	font-size: 1.8rem;
+	font-weight: 500;
+	margin-top: 20px;
+	margin-right: 20px;
+	margin-bottom: 20px;
+}
+#proyecto .proyecto-info p {
+	color: white;
+	margin-top: 20px;
+	margin-right: 20px;
+	margin-bottom: 20px;
+}
+#proyecto .proyecto-img {
+	flex-basis: 50%;
+	height: 300px;
+	overflow: hidden;
+	position: relative;
+}
+#proyecto .proyecto-img:after {
+	content: '';
+	position: absolute;
+	left: 0;
+	top: 0;
+	height: 100%;
+	width: 100%;
+	background-image: linear-gradient(60deg, #29323c 0%, #485563 100%);
+	opacity: 0.7;
+}
+#proyecto .proyecto-img img {
+	transition: 0.3s ease transform;
+}
+#proyecto .proyecto-item:hover .proyecto-img img {
+	transform: scale(1.1);
+}
+/*  */
+
+
+
+
+/* TUTORIALES */
+#tutoriales .tutoriales {
+	flex-direction: column-reverse;
+	text-align: center;
+	max-width: 1200px;
+	margin: 0 auto;
+	padding: 100px 20px;
+}
+#tutoriales .col-izquierda {
+	width: 250px;
+	height: 360px;
+}
+#tutoriales .col-derecha {
+	width: 90%;
+}
+#tutoriales .col-derecha h2 {
+	font-size: 1.8rem;
+	font-weight: 500;
+	letter-spacing: 0.2rem;
+	margin-bottom: 10px;
+}
+#tutoriales .col-derecha p {
+	margin-bottom: 20px;
+}
+#tutoriales .col-derecha .cta {
+	color: black;
+	margin-bottom: 50px;
+	padding: 10px 20px;
+	font-size: 2rem;
+}
+#tutoriales .col-izquierda .tutoriales-img {
+	height: 100%;
+	width: 100%;
+	position: relative;
+	border: 10px solid white;
+}
+#tutoriales .col-izquierda .tutoriales-img::after {
+	content: '';
+	position: absolute;
+	left: -33px;
+	top: 19px;
+	height: 98%;
+	width: 98%;
+	border: 7px solid crimson;
+	z-index: -1;
+}
+/* video */
+.video-box {
+	position: relative;
+	height: auto;
+	width: 100%;
+	max-width: 1200px;
+	margin: 20px auto 0;
+}
+
+
+.video iframe{
+	position:relative;
+	top: 40px;
+	left:20px;
+	right: 20px;
+	width:100%;
+	height: 100%;
+	border: 0ch;
+}
+
+
+
+
+/* contacto Section */
+#contacto{
+	background: grey;
+	width: 100%;
+	
+	color: #fff;
+	border-top: 5px solid #09ac2f;
+	font-weight: lighter;
+	text-align: center;
+}
+
+#contacto form{
+	padding: 20px;
+	
+	border: 1px solid gray;
+	margin-top: 10px;
+}
+
+#contacto form div{
+	width: 300px;
+	margin: 20px auto;
+	display: flex;
+}
+
+
+@media (max-width:500px) {
+	#contacto form div{
+		width: 300px;
+		margin: 20px auto;
+		display: flex;
+	}
+	
+}
+
+#contacto form div label{
+	width: 250px;
+	display: block;
+	margin-bottom: 5px;
+}
+
+
+#contacto form div input,#contacto form div textarea,#contacto form button {
+	width: 450px;
+	border-radius: 3px;
+	padding: 5px 15px;
+	border: none;
+}
+
+#contacto form button{
+	padding: 10px 15px;
+	background: #09ac2f;
+}
+
+
+
+
+
+
+
+/* GALERIA */
+
+.row{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+#galeria img{
+	padding: 20px;
+}
+
+#galeria img:hover{
+	filter: grayscale(2);
+	transform: scale(1.2);
+	transition: all .5s linear;
+}
+
+
+
+
+
+
+/* Footer */
+#footer {
+	background-image: linear-gradient(60deg, #29323c 0%, #485563 100%);
+}
+#footer .footer {
+	min-height: 200px;
+	flex-direction: column;
+	padding-top: 50px;
+	padding-bottom: 10px;
+}
+#footer h2 {
+	color: white;
+	font-weight: 500;
+	font-size: 1.8rem;
+	letter-spacing: 0.1rem;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+#footer .social-icon {
+	display: flex;
+	margin-bottom: 30px;
+}
+#footer .social-item {
+	height: 50px;
+	width: 50px;
+	margin: 0 5px;
+}
+#footer .social-item img {
+	filter: grayscale(1);
+	transition: 0.3s ease filter;
+}
+#footer .social-item:hover img {
+	filter: grayscale(0);
+}
+#footer p {
+	color: white;
+	font-size: 1.3rem;
+}
+/* End Footer */
+
+/* Keyframes */
+@keyframes hamburguesa_puls {
+	0% {
+		opacity: 1;
+		transform: scale(1);
+	}
+	100% {
+		opacity: 0;
+		transform: scale(1.4);
+	}
+}
+@keyframes text_reveal_box {
+	50% {
+		width: 100%;
+		left: 0;
+	}
+	100% {
+		width: 0;
+		left: 100%;
+	}
+}
+@keyframes text_reveal {
+	100% {
+		color: white;
+	}
+}
+@keyframes text_reveal_name {
+	100% {
+		color: crimson;
+		font-weight: 500;
+	}
+}
+/* End Keyframes */
+
+/* Media Query Tablet */
+@media only screen and (min-width: 768px) {
+
+	
+	.cta {
+		font-size: 2.5rem;
+		padding: 20px 60px;
+	}
+	h1.section-title {
+		font-size: 6rem;
+	}
+
+	
+
+	/* Hero */
+	#hero h1 {
+		font-size: 7rem;
+	}
+	/**/
+
+	/* MOVIMIENTO*/
+	#movimiento .movimiento-bottom .movimiento-item {
+		flex-basis: 45%;
+		margin: 2.5%;
+	}
+	/*  */
+
+	/* PROYECTO */
+	#proyecto .proyecto-item {
+		flex-direction: row;
+	}
+	#proyecto .proyecto-item:nth-child(even) {
+		flex-direction: row-reverse;
+	}
+	#proyecto .proyecto-item {
+		height: 400px;
+		margin: 0;
+		width: 100%;
+		border-radius: 0;
+	}
+	#proyecto .all-proyecto .proyecto-info {
+		height: 100%;
+	}
+	#proyecto .all-proyecto .proyecto-img {
+		height: 100%;
+	}
+	/* */
+
+	/* TUTORIALES */
+	#tutoriales .tutoriales {
+		flex-direction: row;
+	}
+	#tutoriales .col-izquierda {
+		width: 10px;
+		height: 40px;
+		padding-left: 60px;
+	}
+	#tutoriales .tutoriales .col-izquierda .tutoriales-img::after {
+		left: -45px;
+		top: 34px;
+		height: 98%;
+		width: 98%;
+		border: 10px solid crimson;
+	}
+	.tutoriales .col-derecha {
+		text-align: left;
+		padding: 80px;
+	}
+	#tutoriales .col-derecha h1 {
+		text-align: left;
+	}
+	
+	/*VIDEOS */
+
+	
+.video iframe{
+	position:relative;
+	top: 100px;
+	left:20px;
+	width:75%;
+	height: 75%;
+	border: 0ch;
+}
+	/* CONTACTO */
+	#contacto .contacto {
+		flex-direction: column;
+		padding: 100px 0;
+		align-items: center;
+		justify-content: center;
+		min-width: 20vh;
+	}
+	#contacto .contacto-items {
+		width: 30%;
+		display: flex;
+		flex-direction: row;
+		justify-content: space-evenly;
+		margin: 0;
+	}
+	#contacto .contacto-item {
+		width: 40%;
+		margin: 0;
+		flex-direction: row;
+	}
+	#contacto .contacto-item .icon {
+		height: 100px;
+		width: 100px;
+	}
+	#contacto .contacto-item .icon img {
+		object-fit: contain;
+	}
+	#contacto .contacto-item .contacto-info {
+		width: 50%;
+		text-align: left;
+		padding-left: 20px;
+	}
+	/*   */
+}
+/* */
+
+/* Media Query Desktop */
+@media only screen and (min-width: 1200px) {
+	/* header */
+	#header .hamburguesa {
+		display: none;
+	}
+	#header .nav-list ul {
+		position: initial;
+		display: block;
+		height: auto;
+		width: fit-content;
+		background-color: transparent;
+	}
+	#header .nav-list ul li {
+		display: inline-block;
+	}
+	#header .nav-list ul li a {
+		font-size: 1.8rem;
+	}
+	#header .nav-list ul a:after {
+		display: none;
+	}
+	/* End header */
+
+	#movimiento .movimiento-bottom .movimiento-item {
+		flex-basis: 22%;
+		margin: 1.5%;
+	}
+}
+/*  */
+
+
+
+@media (min-width:992px) {
+    .contenedor{
+        max-width: 960px;
+    }
+    .d-flex{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    .datos{
+        width: 49%;
+    }
+    .mensaje{
+        width: 49%;
+    }
+	#header .hamburguesa {
+		display: none;
+	}
+	#header .nav-list ul {
+		position: initial;
+		display: block;
+		height: auto;
+		width: fit-content;
+		background-color: transparent;
+	}
+	#header .nav-list ul li {
+		display: inline-block;
+	}
+	#header .nav-list ul li a {
+		font-size: 1.8rem;
+	}
+	#header .nav-list ul a:after {
+		display: none;
+	}
+}
+
+
+
+
+@media (min-width:576px) {
+    .contenedor {
+        max-width: 540px;       
+    }
+	#contacto .contacto {
+		flex-direction: column;
+		padding: 100px 0;
+		align-items: center;
+		justify-content: center;
+		min-width: 40vh;
+	}
+	#contacto .contacto-items {
+		width:55%;
+		display: flex;
+		flex-direction: row;
+		justify-content: space-evenly;
+		margin: 0;
+	}
+	#contacto .contacto-item {
+		width:50%;
+		margin: 0;
+		flex-direction: row;
+	}
+	#contacto .contacto-item .icon {
+		height: 100px;
+		width: 100px;
+	}
+	#contacto .contacto-item .icon img {
+		object-fit: contain;
+	}
+	#contacto .contacto-item .contacto-info {
+		width: 100%;
+		text-align: left;
+		padding-left: 20px;
+	}
+	.video .d-flex {
+		max-width: 45%;
+		height: 45%;
+		position: relative;
+		padding-bottom: 56.25%;
+		height: 0;
+	}
+	
+	
+}
+
+
+
+
+
+
+
+

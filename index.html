@@ -1,0 +1,492 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Angel Alvarez - Ezequiel Carrari - DMN2BV viernes:18:45 2022</title>
+  <link rel="stylesheet" href="https://necolas.github.io/normalize.css/8.0.1/normalize.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+  
+</head>
+
+<body>
+  <header>
+     <!-- NAVBAR-->
+  
+    <nav class="navbar navbar-expand-lg bg-mine navbar-light">
+   
+      <div class="container-fluid">
+          <a class="navbar-brand" href="">
+              <img src="img/logo-05.png" width="24" alt="">
+
+          </a>
+          <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#menu"
+              aria-controls="menu" aria-expanded="false" aria-label="Botón hamburguesa">
+              <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="menu">
+              <ul class="navbar-nav">
+                  <li class="nav-item mx-3"><a class="nav-link" href="#">INICIO</a></li>
+                  <li class="nav-item mx-3"><a class="nav-link active" aria-current="page" href="#movimiento">MOVETE</a></li>
+                  <li class="nav-item mx-3"><a class="nav-link active" aria-current="page" href="#proyecto">CONSEJOS</a></li>
+                  <li class="nav-item mx-3"><a class="nav-link active" aria-current="page" href="#tutoriales">TUTORIALES</a></li>
+                  <li class="nav-item mx-3"><a class="nav-link active" aria-current="page" href="#galeria">GALERÍA</a></li>
+                  <li class="nav-item mx-3"><a class="nav-link active" aria-current="page" href="#contacto">CONTACTO</a></li>
+                  
+              </ul>
+              
+          </div>
+      </div>
+  </nav>
+
+  </header>
+
+ <!-- CARROUSEL -->
+  
+    <div id="gallery" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#gallery" data-bs-slide-to="0" class="active"
+                aria-label="Imagen 1" aria-current="true"></button>
+            <button type="button" data-bs-target="#gallery" data-bs-slide-to="1" aria-label="Imagen 2"></button>
+            <button type="button" data-bs-target="#gallery" data-bs-slide-to="2" aria-label="Imagen 3"></button>
+        </div>
+        <div class="carousel-inner">
+            <div class="carousel-item active" data-bs-interval="2000z0">
+                <img class="d-block w-100" src="img/sliderbanner_1.jpg" alt="img">
+                <div class="carousel-caption d-none d-md-block">
+                    <h2>Ponete en Movimiento</h2>
+                </div>
+            </div>
+            <div class="carousel-item" data-bs-interval="4000">
+                <img class="d-block w-100" src="img/sliderbanner_2.jpg" alt="img">
+                <div class="carousel-caption d-none d-md-block">
+                    <h2>Entrená con Rutinas Saludables</h2>
+                </div>
+            </div>
+            <div class="carousel-item" data-bs-interval="1000">
+                <img class="d-block w-100" src="img/sliderbanner_3.jpg" alt="img">
+                <div class="carousel-caption d-none d-md-block">
+                    <h2>Aprendé a alimentarte bien</h2>
+                </div>
+            </div>
+            
+        </div>
+ 
+        <button class="carousel-control-prev" type="button" data-bs-target="#gallery" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon"></span>
+            <span class="visually-hidden">Anterior</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#gallery" data-bs-slide="next">
+            <span class="carousel-control-next-icon"></span>
+            <span class="visually-hidden">Siguiente</span>
+        </button>
+    </div>
+</div>
+
+
+  
+    <!-- MOVIMIENTO -->
+    <section id="movimiento">
+      <div class="movimiento contenedor">
+        <div class="movimiento-top">
+          <h1 class="section-title">Movi<span>mi</span>ento</h1>
+          <p>La actividad física y la adecuada alimentación son fundamentales para cuidar nuestra salud, 
+            que hoy es prioridad para todos. Trabajar desde casa no debe ser impedimento para descuidar estos aspectos. 
+            Por ello, María Mercedes Saravia, directora de la carrera de Medicina Humana de USIL, junto a Patrick Cazorla, 
+            médico cirujano y residente de Medicina del Deporte, comparten diez consejos particulares para mantenerse activo, 
+            saludable y no perder masa muscular:</p>
+        </div>
+        <div class="movimiento-bottom">
+          <div class="movimiento-item">
+            <div class="icon"><img src="img/iconos-16.png" /></div>
+            <h2>CARDIO</h2>
+            <p>Realice ejercicios cardiovasculares y de fuerza muscular: puede bailar o trotar frecuentemente dentro de su casa. 
+              Entre 150 a 300 minutos por semana es suficiente. Además, incluya ejercicios de fuerza en su rutina dos 
+              a tres veces a la semana con su propio peso, sesiones de yoga o con herramientas que tenga en casa.</p>
+            <a type="button" class="btn btn-success" data-bs-toggle="modal" data-bs-target="#modal1" href="#" type="button" class="cta">Ver más</a>
+          </div>
+          <div class="movimiento-item">
+            <div class="icon"><img src="img/iconos-17.png" /></div>
+            <h2>SEDENTARISMO</h2>
+            <p>Disminuya la conducta sedentaria con pausas activas: no permanezca echado o sentado todo el día. Puede trabajar 
+              algunos minutos con la computadora de pie y aumentar el número de pasos para estar siempre en movimiento. 
+              Considere también hacer pausas activas. Puede activar su alarma cada hora para hacer 10 flexiones.</p>
+              <a type="button" class="btn btn-success" data-bs-toggle="modal" data-bs-target="#modal2" href="#" type="button" class="cta">Ver más</a>
+          </div>
+          <div class="movimiento-item">
+            <div class="icon"><img src="img/iconos-18.png" /></div>
+            <h2>NUTRIENTES</h2>
+            <p>Consumo de proteínas y verduras: en las tres o cuatro comidas principales, siempre incluya una ración de proteína, como huevo, 
+              pollo o carne. Este consumo es fundamental para mantener la masa muscular. Asimismo, aumente el consumo de verduras en todas 
+              sus comidas. Más variedad de micronutrientes obtendrá en su dieta.</p>
+              <a type="button" class="btn btn-success" data-bs-toggle="modal" data-bs-target="#modal3" href="#" type="button" class="cta">Ver más</a>
+          </div>
+          <div class="movimiento-item">
+            <div class="icon"><img src="img/iconos-19.png" /></div>
+            <h2>EQUILIBRIO</h2>
+            <p>Evite consumir calorías líquidas: deje de lado las bebidas endulzadas, sintéticas y gaseosas. 
+              Durante la cuarentena, por lo menos, reemplácelas por agua. <br> 
+              Modere el consumo de alcohol: el alcohol daña a corto y largo plazo el sistema inmune y aporta 
+              calorías vacías. Evite exceso.</p>
+              <a type="button" class="btn btn-success" data-bs-toggle="modal" data-bs-target="#modal4" href="#" type="button" class="cta">Ver más</a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--  -->
+
+   
+
+        <!-- MODAL MOVIMIENTO CARDIO -->
+    <div class="modal fade" id="modal1" tabindex="-1" role="dialog" aria-labelledby="modalTitle" aria-hidden="true">
+    
+        <div class="modal-dialog ">
+            <div class="modal-content">
+               
+                <div class="modal-header">
+                    <h2 class="modal-title" id="modalTitle">CARDIO</h2>
+                    
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Botón de cierre">
+                    </button>
+                </div>
+               
+                <div class="modal-body">
+                    <p>Realice ejercicios cardiovasculares y de fuerza muscular: puede bailar o trotar frecuentemente dentro de su casa. 
+                      Entre 150 a 300 minutos por semana es suficiente. Además, incluya ejercicios de fuerza en su rutina dos 
+                      a tres veces a la semana con su propio peso, sesiones de yoga o con herramientas que tenga en casa.</p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                   
+                </div>
+            </div>
+        </div>
+
+      </div>
+
+
+       <!-- MODAL MOVIMIENTO SEDENTARISMO -->
+    <div class="modal fade" id="modal2" tabindex="-1" role="dialog" aria-labelledby="modalTitle" aria-hidden="true">
+    
+      <div class="modal-dialog ">
+          <div class="modal-content">
+             
+              <div class="modal-header">
+                  <h2 class="modal-title" id="modalTitle">SEDENTARISMO</h2>
+                  
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Botón de cierre">
+                  </button>
+              </div>
+             
+              <div class="modal-body">
+                  <p>Disminuya la conducta sedentaria con pausas activas: no permanezca echado o sentado todo el día. Puede trabajar 
+                    algunos minutos con la computadora de pie y aumentar el número de pasos para estar siempre en movimiento. 
+                    Considere también hacer pausas activas. Puede activar su alarma cada hora para hacer 10 flexiones.</p>
+              </div>
+              <div class="modal-footer">
+                  <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                  
+              </div>
+          </div>
+      </div>
+
+    </div>
+
+
+     <!-- MODAL MOVIMIENTO NUTRICIÓN -->
+     <div class="modal fade" id="modal3" tabindex="-1" role="dialog" aria-labelledby="modalTitle" aria-hidden="true">
+    
+      <div class="modal-dialog ">
+          <div class="modal-content">
+             
+              <div class="modal-header">
+                  <h2 class="modal-title" id="modalTitle">NUTRIENTES</h2>
+                  
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Botón de cierre">
+                  </button>
+              </div>
+             
+              <div class="modal-body">
+                  <p>Consumo de proteínas y verduras: en las tres o cuatro comidas principales, siempre incluya una ración de proteína, como huevo, 
+                    pollo o carne. Este consumo es fundamental para mantener la masa muscular. Asimismo, aumente el consumo de verduras en todas 
+                    sus comidas. Más variedad de micronutrientes obtendrá en su dieta.</p>
+              </div>
+              <div class="modal-footer">
+                  <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                  
+              </div>
+          </div>
+      </div>
+
+    </div>
+
+
+     <!-- MODAL EQUILIBRIO -->
+     <div class="modal fade" id="modal4" tabindex="-1" role="dialog" aria-labelledby="modalTitle" aria-hidden="true">
+    
+      <div class="modal-dialog ">
+          <div class="modal-content">
+             
+              <div class="modal-header">
+                  <h2 class="modal-title" id="modalTitle">EQUILIBRIO</h2>
+                  
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Botón de cierre">
+                  </button>
+              </div>
+             
+              <div class="modal-body">
+                  <p>Evite consumir calorías líquidas: deje de lado las bebidas endulzadas, sintéticas y gaseosas. 
+                    Durante la cuarentena, por lo menos, reemplácelas por agua. <br> 
+                    Modere el consumo de alcohol: el alcohol daña a corto y largo plazo el sistema inmune y aporta 
+                    calorías vacías. Evite exceso.</p>
+              </div>
+              <div class="modal-footer">
+                  <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                 
+              </div>
+          </div>
+      </div>
+
+    </div>
+
+
+
+    <!-- PARALLAX -->
+    <div id="parallax-world-of-ugg">
+  
+     
+      <section>
+          <div class="parallax-one">
+            <h2>CONSEJOS<span> SALUDABLES</span></h2>
+          </div>
+      </section>
+    </div>
+
+
+      <!-- PROYECTO -->
+    <section id="proyecto">
+      <div class="proyecto contenedor">
+        
+        <div class="all-proyecto">
+          <div class="proyecto-item">
+            <div class="proyecto-info">
+              <h1>ACTIVIDAD FÍSICA</h1>
+              <h2>Realizar alguna actividad física</h2>
+              <p>Es importante por lo menos realizar 30 minutos de ejercicio al día y llevar una vida más sana. Puedes bailar, 
+                ir al gimnasio, correr, caminar o hacer algún deporte; con cualquiera de estas actividades puedes mejorar tu rendimiento físico.</p>
+            </div>
+            <div class="proyecto-img">
+              <img src="./img/md-consejos-13.jpg" alt="img">
+            </div>
+          </div>
+          <div class="proyecto-item">
+            <div class="proyecto-info">
+              <h1>HIDRATACIÓN</h1>
+              <h2>Mantener una buena hidratación</h2>
+              <p>El agua es esencial para el cuerpo ya que te ayuda a regular la temperatura corporal, 
+                manteniendo la piel hidratada y elástica, lubricando articulaciones y órganos y manteniendo una buena digestión.</p>
+            </div>
+            <div class="proyecto-img">
+              <img src="./img/md-consejos-18.jpg" alt="img">
+            </div>
+          </div>
+          <div class="proyecto-item">
+            <div class="proyecto-info">
+              <h1>ALIMENTACIÓN</h1>
+              <h2>Comer saludable</h2>
+              <p>Una buena alimentación incluye una dieta balanceada, escogiendo un plan de alimentación 
+                para cada persona dependiendo de su organismo. Así nos aseguramos de que nuestro cuerpo tenga 
+                los nutrientes necesarios.</p>
+            </div>
+            <div class="proyecto-img">
+              <img src="./img/md-consejos-19.jpg" alt="img">
+            </div>
+          </div>
+          <div class="proyecto-item">
+            <div class="proyecto-info">
+              <h1>DESCANSO</h1>
+              <h2>Dormir bien</h2>
+              <p>¿Eres de los que les gusta dormir pocas horas? ¡ERROR! La OMS recomienda dormir por lo menos 6 horas diarias, 
+                ya que dormir poco puede afectar la salud. Algunos de los problemas como consecuencia de no dormir lo suficiente son: 
+                reducción de los reflejos, capacidad de concentración disminuida y problemas de apetito y gástricos.</p>
+            </div>
+            <div class="proyecto-img">
+              <img src="./img/md-consejos-20.jpg" alt="img">
+            </div>
+          </div>
+          <div class="proyecto-item">
+            <div class="proyecto-info">
+              <h1>ESTRÉS CERO</h1>
+              <h2>Mantente libre de estrés</h2>
+              <p>El trabajo, el dinero, los hijos, la pareja, etc., pueden ser un gran distractor de nuestro bienestar emocional. 
+                Se recomienda estar lo más tranquilo posible ya que el estrés también afecta nuestra salud. No dejes que nada 
+                interfiera en tu tranquilidad.</p>
+            </div>
+            <div class="proyecto-img">
+              <img src="./img/md-consejos-21.jpg" alt="img">
+            </div>
+          </div>
+          <div class="proyecto-item">
+            <div class="proyecto-info">
+              <h1>HIDRATACIÓN</h1>
+              <h2>Hidrátate</h2>
+              <p> 
+                Nuestro cuerpo está compuesto mayoritariamente por agua, por lo que hay que estar continuamente 
+                reponiendo estas reservas para estar correctamente hidratado lo ideal es beber dos litros de agua al día.</p>
+            </div>
+            <div class="proyecto-img">
+              <img src="./img/md-consejos-22.jpg" alt="img">
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--  -->
+
+
+    <!-- TUTORIALES -->
+    
+    <section id="tutoriales">
+      <div class="tutoriales container">
+        <div class="row">
+          <div class="col-xl-6 col-xxl-6 col-lg-6 col-md-12 col-sm-12">
+            <h1 class="section-title">Tuto<span>ria</span>les</h1>
+            <p>Se trata de la elección de los alimentos en sus combinaciones diferentes y es lo que se conoce como “menú” que cada persona ingiere. Un menú bien planificado permite alcanzar un mejor perfil nutritivo y balance en cada comida. Además, evita la monotonía y nos ahorra costos, porque ayuda en la organización desde la compra, almacenamiento y preparación del mismo.</p>
+            <a href="#" class="cta">Arriba</a>
+          </div>
+
+          <div class="col-xl-6 col-xxl-6 col-lg-6 col-md-12 col-sm-12 ">
+            <div class="video-box">
+            <div class="video">
+             <iframe src="https://www.youtube.com/embed/EKI0ktcjADU" width="600" height="400" title="YouTube video player" ollowfullscreen></iframe>
+            </div></div>
+          </div>
+
+
+        </div>
+
+        
+      </div>
+    </section>
+
+
+    
+    
+    <!-- GALERIA -->
+    <section id="galeria">
+      <div class="proyecto-header">
+        <h1 class="section-title">Galería <span>de Ejercicios</span></h1>
+      </div>
+
+      <div class="container-fluid">
+      
+        <div class="row">
+            <div class="col-4">
+                <img src="img/-_galeria1.jpg" alt= "#" class="img-fluid" width="768">
+            </div>
+            <div class="col-4">
+                <img src="img/-_galeria2.jpg" alt="#" class="img-fluid" width="768">
+            </div>
+            <div class="col-4">
+                <img src="img/-_galeria3.jpg" alt="#" class="img-fluid" width="768">
+            </div>
+            <div class="col-4">
+                <img src="img/-_galeria4.jpg" alt="#" class="img-fluid" width="768">
+            </div>
+            <div class="col-4">
+                <img src="img/-_galeria5.jpg" alt="#" class="img-fluid" width="768">
+            </div>
+            <div class="col-4">
+                <img src="img/-_galeria6.jpg" alt="#" class="img-fluid" width="768">
+            </div>
+        </div>
+    </div>
+    </section>
+
+
+    
+    <!-- Contacto Section -->
+    <section id="contacto">
+      <div class="row">
+        
+        <div class="col-xl-6 col-xxl-6 col-lg-6 col-md-12 col-sm-12">
+
+
+          <div class="proyecto-header">
+            <h1 class="section-title">CONTAC<span>TANOS</span></h1>
+          </div>
+          <form action="mailto:angel.alvarez@davinci.edu.ar">
+              <div>
+                  
+                  <input type="text" id="nombre" name="nombre" placeholder="Ingrese su nombre">
+              </div>
+    
+              <div>
+                  
+                  <input type="email" id="email" name="email" placeholder="Ingrese su email">
+              </div>
+    
+              <div>
+                  
+                  <input type="text" id="asunto" name="asunto" placeholder="Ingrese el motivo de la consulta">
+              </div>
+    
+              <div>
+                  
+                  <textarea name="mensaje" id="mensaje" cols="30" rows="10"></textarea>
+              </div>
+    
+              <div>
+                  <button type="submit">Enviar</button>
+              </div>
+          </form>
+  
+  
+        </div>
+        
+        </div>
+
+      
+    </section>
+
+
+  </main>
+
+  <!-- Hero Section  -->
+ 
+  <!-- End Contact Section -->
+
+  <!-- Footer -->
+  <section id="footer">
+    <div class="footer container">
+      <div class="brand">
+        <h1><span>Nu</span>tri <span>Co</span>rp</h1>
+      </div>
+      <h2>Buscanos en las Redes Sociales</h2>
+      <div class="social-icon">
+        <div class="social-item">
+          <a href="http://www.facebook.com"><img src="./img/redes_iconos-03.png"/></a>
+        </div>
+        <div class="social-item">
+          <a href="http://www.instagram.com"><img src="./img/redes_iconos-02.png"/></a>
+        </div>
+        <div class="social-item">
+          <a href="http://www.wuassap.com"><img src="./img/redes_iconos-04.png" /></a>
+        </div>
+       
+      </div>
+      <p>Copyright © 2022 Angel Alvarez - Ezequiel Carrari. Comisión DMN2BV viernes:18:45</p>
+    </div>
+  </section>
+  <!-- End Footer -->
+  <script src="./app.js"></script>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+  integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+  crossorigin="anonymous"></script>
+  
+
+</html>
